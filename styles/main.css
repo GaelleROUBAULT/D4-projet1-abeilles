@@ -1,0 +1,20 @@
+header {
+  font-size: 2em;
+  position: absolute;
+  text-align: center;
+  
+}
+
+
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
