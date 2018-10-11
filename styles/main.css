@@ -2,6 +2,7 @@
 jaune #FFDA00
 bleu
 rougerose #E83B7E
+<<<<<<< HEAD
 orange #FF9900
 */
 
@@ -11,10 +12,19 @@ body{
   background-image: url("../media/fond.jpg");
   opacity: 50%;
 }
+=======
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Chela+One|Montserrat');
+
+>>>>>>> c4902c38d27b382a1766ccd15035aaaef42282cd
 
 header {
   font-size: 3.5em;
   font-family: 'Chela One', cursive;
+<<<<<<< HEAD
   text-align: center;
   justify-content: center;
   background-color: #FF9900;
@@ -67,6 +77,12 @@ video {
 
 section{
   display: flex;
+=======
+  text-align: center;
+  justify-content: center;
+  background-color: #FFDA00;
+
+>>>>>>> c4902c38d27b382a1766ccd15035aaaef42282cd
 }
 
 .image_abeille img {
@@ -74,7 +90,29 @@ section{
   border: 10px solid #FF9900;
 }
 
+<<<<<<< HEAD
 .bouton img {
+=======
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #000000;
+font-size: 1.5em;
+justify-content: center;
+text-align: center;
+
+}
+
+li{
+display: inline-flex;
+}
+.link{ color: #000000}
+.linkhover{ color: #FFDA00}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+color: #000000;
+>>>>>>> c4902c38d27b382a1766ccd15035aaaef42282cd
 }
 
 footer {
