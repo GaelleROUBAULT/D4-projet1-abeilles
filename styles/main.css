@@ -1,17 +1,92 @@
+/*background-image: linear-gradient(#FFDA00,#E83B7E);
+jaune #FFDA00
+bleu
+rougerose #E83B7E
+orange #FF9900
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Chela+One|Montserrat');
+
+body{
+  background-image: url("../media/fond.jpg");
+  opacity: 50%;
+}
+
 header {
-  font-size: 2em;
-  position: absolute;
+  font-size: 3.5em;
+  font-family: 'Chela One', cursive;
   text-align: center;
-  
+  justify-content: center;
+  background-color: #FF9900;
 }
 
 
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #000000;
+font-size: 1.5em;
+justify-content: center;
+text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 2em;
+  justify-content: center;
+  text-align: left;
+  padding-left: 30px;
+}
+
+li{
+display: inline-flex;
+font-family: 'Chela One', cursive;
+}
+
+a{color: #000000;}
+a:hover{color: #FFDA00;}
+
+p{
+font-family: 'Montserrat', sans-serif;
+color: #000000;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+video {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: 1em;
+  margin-top: auto;
+  align-items: center;
+}
+
+
+section{
+  display: flex;
+}
+
+.image_abeille img {
+  max-width: 200px;
+  border: 10px solid #FF9900;
+}
+
+.bouton img {
+}
 
 footer {
-    font-size: .8rem;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+  align-items: flex-end;
+  margin-top: inherit;
+  padding: 2em;
+  background-color: #FF9900;
+  color: black;
+  font-family: 'Chela One', cursive;
+  justify-content: center;
+
+
 }
 
 .output {
