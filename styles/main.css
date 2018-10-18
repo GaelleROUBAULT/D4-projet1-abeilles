@@ -64,13 +64,14 @@ video {
   font-size: 1em;
   margin-top: auto;
   align-items: center;
+  padding: 20px;
 }
 
-.flecheG img {
+.flecheg img {
   max-width: 100px;
   padding-top: 4em;
 }
-.flecheD img {
+.fleched img {
   max-width: 100px;
   padding-top: 4em;
 }
